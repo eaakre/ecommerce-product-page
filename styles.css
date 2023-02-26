@@ -147,13 +147,24 @@ nav img {
     text-decoration:line-through;
 }
 
-.cart-container, .add-cart {
+.cart-container, .add-cart, .change-cart {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
+}
+
+.change-cart {
+    background: var(--light-grayish-blue);
+    justify-content: space-evenly;
+    width: 40%;
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin: 0 10px;
 }
 
 .add-cart {
+    width: 60%;
     cursor: pointer;
     background: var(--orange);
     padding: 10px 60px;
