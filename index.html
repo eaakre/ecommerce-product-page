@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | E-commerce product page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+    <nav>
+      <div id="nav-logo">
+        <img src="/images/logo.svg" alt="" id="logo">
+      </div>
+
+      <ul id="nav-links">
+        <li><a class="gray" href="#">Collections</a></li>
+        <li><a class="gray" href="#">Men</a></li>
+        <li><a class="gray" href="#">Women</a></li>
+        <li><a class="gray" href="#">About</a></li>
+        <li><a class="gray" href="#">Contact</a></li>
+      </ul>
+      
+      <div id="account">
+        <img src="/images/icon-cart.svg" alt="" id="nav-cart">
+        <img src="/images/image-avatar.png" alt="" id="profile-pic">
+      </div>
+
+    </nav>
+
+    <div class="line"></div>
+
+    <main>
+      <div class="product">
+        <div class="pic-container">
+          <img src="/images/image-product-1.jpg" alt="" id="main-img">
+          <div class="sm-img-container">
+            <img src="/images/image-product-1-thumbnail.jpg" alt="" class="sm-img">
+            <img src="/images/image-product-2-thumbnail.jpg" alt="" class="sm-img">
+            <img src="/images/image-product-3-thumbnail.jpg" alt="" class="sm-img">
+            <img src="/images/image-product-4-thumbnail.jpg" alt="" class="sm-img">
+          </div>
+        </div>
+  
+        <div class="info-container">
+            <p id="company" class="orange">Sneaker Company</p>
+            
+            <h1 class="black">Fall Limited Edition Sneakers</h1>
+            
+            <p class="gray" id="description">These low-profile sneakers are your perfect casual wear companion. Featuring a 
+              durable rubber outer sole, they’ll withstand everything the weather can offer.
+            </p>
+  
+            <div class="price-container">
+              <h2 class="black" id="price">$125.00</h2>
+              <p class="orange">50%</p>
+            </div>
+  
+            <p class="old gray">$250.00</p>
+  
+            <div class="cart-container">
+              <img src="/images/icon-minus.svg" alt="">
+              <p id="amount">0</p>
+              <img src="/images/icon-plus.svg" alt="">
+              <button class="add-cart">
+                <img src="/images/icon-cart-white.svg" alt="" class="white">
+                <p class="white">Add to cart</p>
+              </button>
+          </div>
+        </div>
+      </div>
+    </main>
+  
+  <!-- <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </footer> -->
+</body>
+</html>
